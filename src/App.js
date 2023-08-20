@@ -1,4 +1,5 @@
 import Header from "./components/Header/Header";
+import ResultsTable from "./components/ResultsTable/ResultsTable";
 import UserInput from "./components/UserInput/UserInput";
 
 function App() {
@@ -37,7 +38,8 @@ function App() {
 
       {/* Todo: Show below table conditionally (only once result data is available) */}
       {/* Show fallback text if no data is available */}
-      
+
+      <ResultsTable />
     </div>
   );
 }
