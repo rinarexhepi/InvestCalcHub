@@ -1,4 +1,4 @@
-const userInput = () => {
+const UserInput = () => {
   return (
     <form className="form">
       <div className="input-group">
