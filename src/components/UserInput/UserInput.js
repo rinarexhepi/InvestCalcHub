@@ -35,4 +35,4 @@ const UserInput = () => {
   );
 };
 
-export default userInput;
+export default UserInput;
